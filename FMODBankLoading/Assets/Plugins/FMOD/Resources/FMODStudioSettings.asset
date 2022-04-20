@@ -414,7 +414,7 @@ MonoBehaviour:
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
   AutomaticEventLoading: 0
-  BankLoadType: 2
+  BankLoadType: 1
   AutomaticSampleLoading: 0
   EncryptionKey: 
   ImportType: 0
@@ -435,7 +435,8 @@ MonoBehaviour:
   - Master
   Banks:
   - CoolBank
-  BanksToLoad: []
+  BanksToLoad:
+  - CoolBank
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
   AndroidUseOBB: 0
